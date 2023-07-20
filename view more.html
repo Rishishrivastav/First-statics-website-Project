@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        
+        <style>
+        /* Media Queries */
+        @media (max-width: 767px) {
+            .headone {
+                position: static;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            
+            .headtwo {
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            .headone img {
+                width: 20vw;
+                height: 5vh;
+}
+            .image {
+                width: 70%;
+                height: auto;
+                margin: 1rem auto;
+            }
+            
+            .rect2 {
+                height: auto;
+            }
+            
+            .cola{
+                width: 100%;
+                height: auto;
+                padding: 1rem;
+                
+            }
+            .colb{
+                width: 100%;
+                height: auto;
+                padding: 1rem;
+            }
+            .colc {
+                width: 100%;
+                height: auto;
+                padding: 1rem;
+            }
+            
+            .rect4 {
+                height: auto;
+                padding: 2rem;
+            }
+            
+            .footer1{
+                width: 100%;
+                float: none;
+                font-size: 14px;
+                text-align: center;
+                padding: 1rem;
+            }
+            .footer2 {
+                width: 100%;
+                float: none;
+                font-size: 14px;
+                text-align: center;
+                padding: 1rem;
+            }
+            
+            .footer2 img {
+                width: 40%;
+                height: auto;
+            }
+            
+            .contact1 button {
+                width: 80%;
+                margin-top: 2rem;
+            }
+        }
+        @media (min-width: 767px){
+          
+        .head {
+                width: 100%;
+                height: 5vh;
+                background-color: white;
+            }
+            .headone {
+                position: static;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 0.5rem;
+            }
+            .headone img{
+                width:20vw;
+                height:8vh;
+            }
+            .menus{
+                font-size: 0.5pc;
+            }
+            .rect2{
+                height: 76vh;
+                border: solid 25px white;
+
+        }
+        .cola{
+                width:100%;
+                height:40vh;
+            }
+
+            .cola img{
+               
+                padding:0.5rem;
+             
+            }
+            .colb{
+                width:100%;
+                height:40vh;
+
+            }
+            .colb img{
+              
+                padding:0.5rem;
+                
+            }
+            .colc{
+                width:100%;
+                height:40vh;
+                
+            }
+            .colc img{
+               
+                padding-right: 2rem;
+            }
+            .rect4 {
+                height: auto;
+                padding: 0.5rem;
+            }
+            .footer1{
+                width: 100%;
+                float: none;
+                font-size: 5px;
+                text-align: center;
+                padding: 0.3rem;
+                height: 10vh;
+            }
+            .footer2 {
+                width: 100%;
+                float: none;
+                font-size: 5px;
+                text-align: center;
+                padding: 0.3rem;
+                height: 10vh;
+            }
+            
+            .footer2 img {
+                width: 40%;
+                height: auto;
+            }
+            .rect4{
+                font-size: 0.3pc;
+            }
+            .contact1 button{
+            height:3vh;
+            width: 30%;
+            margin-top: 3rem;
+            border-radius: 2rem;
+            font-size: 0.5pc;
+
+        }
+            
+
+        }
+
+
+
+ 
+         
+            *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+            .clear{
+                clear: both;
+            }
+            .head {
+                width: 100%;
+                height: 10vh;
+                background-color: white;
+            }
+            .headone {
+                position: absolute;
+                width: 10vw;
+                height: 15vh;
+                left: 6rem;
+                top: 0px;
+                
+            }
+            .headtwo {
+                color: #4CAF50;
+                
+            }
+            .headtwo a{
+                color: black;
+                text-decoration: none;
+            }
+
+            .manus {
+                height: 5vh;
+                margin: 3rem 3rem 0 0;
+                float: right;
+                color: black;
+                font-size: 2pc;
+            }
+
+           .image{
+            width: 20vw;
+            height: 15vh;
+            
+           
+            }
+            .clear{
+                clear:both;
+        }
+        .rect2{
+            width:100%;
+            height:90vh;
+            background-image: url("background.jpg");
+            border: solid 25px white;
+            
+        }
+        .cola{
+            width:32%;
+            height:35vh;
+            float:left;
+            padding-top: 3rem;
+            padding-left: 2rem;
+        }
+        .cola img{
+            width:28vw;
+            height:70vh;
+        }
+        .colb{
+            width:25%;
+            height:30vh;
+            float:left;
+            padding-top:3rem;
+            padding-left: 2rem;
+        }
+        .colb img{
+            width:28vw;
+            height:70vh;
+        }
+        .colc{
+            width:25%;
+            height:30vh;
+            float:left;
+            padding-top: 3rem;
+            padding-left: 8rem;
+        }
+        .colc img{
+            width:28vw;
+            height:70vh;
+        }
+        .rect4{
+            width:100%;
+            height:65vh;
+            background-color:#C9EDC1 ;
+            border: solid 3rem white;
+            float:left;   
+        }
+        .footer1{
+            width:50%;
+            height:50vh;
+            float:left;
+            font-size: 2pc; 
+            padding:2rem; 
+        }
+        .footer2{
+            width:40%;
+            height:50vh;
+            float:left;
+            font-size: 1.5pc;
+            text-align: center;
+        }
+        .footer2 img{
+            width:45%;
+            height:10rem;
+        }
+        .contact1 button{
+            width: 45%;
+            height:5vh;
+            margin-top: 3rem;
+            border-radius: 5rem;
+            font-size: 1pc;
+        }
+        button:hover {
+            background-color: skyblue;
+            color: red;
+            cursor: pointer;
+            border: 2px solid yellow;
+        }
+
+        
+
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <div class="headone">
+              <img src="name.jpg" alt="Italian Trulli" class="image">
+            </div>
+            <div class="headtwo">
+              <a href="#">
+                <div class="manus"> Blogs</div>
+              </a>
+              <a href="#">
+                <div class="manus">Company</div>
+              </a>
+              <a href="#">
+                <div class="manus"><a href="rahul raj.html">Home</a></div>
+                
+              </a>
+            </div>
+            <div class="clear"></div>
+            <div class="rect2">
+                <div class="cola"><img src="img5.jpg" alt="not"></div>
+                <div class="colb"><img src="img6.jpg" alt="not"></div>
+                <div class="colc"><img src="img7.jpg" alt="not"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="rect4"style="height:30rem">
+                <div class="footer1">
+                    <p>Feel free to reach out for collaborations or just a friendly hello   md@slpindiaprivatelimited.com</p>
+                    <div class="contact1">
+                        <button type="button" name="Contact me">contact me</button>
+                      </div>
+                </div>
+                <div class="footer2">
+                    <img src="img12.jpg"alt="not">
+                    <p>Copyright © 2022 Private - All Rights Reserved.</br>
+                    Powred by slindiapvt.ltd.com</p>
+                </div>
+            </div>
+            </div>
+
+    </body>
+</htm>
